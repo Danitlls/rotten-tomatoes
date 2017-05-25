@@ -1,27 +1,45 @@
+.wrap {
+margin: 40px;
+}
 
+input {
+	width: 200px;
+	float:right;
+	margin: 10px 0;
+}
 
+label {
+	width: 200px;
+	padding: 10px 0;
+}
+button{
+	float:left;
+	clear:both;
+}
 
+.form-group {
+	width: 300px;
+	overflow: auto;
+	margin-left: 25px;
+}
+form{
+		height: 160px;
+		/*background-color: orange;*/
+		margin-top: 30px;
+}
 
+#new-movie {
+	margin-top: 15px;
+}
 
+.order {
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
 
+#sort {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 @font-face{
 	font-family: Lato-Black;
