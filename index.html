@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8" type="text/css">
+    <meta charset="utf-8">
+    <title>Rotten Tomatoes</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Rotten Tomatoes Chart</h1>
+      <div class="form">
+        <form class="chart" action="index.html" method="post">
+          <div class="form-group">
+            <label for="input-movie">Movie</label>
+            <input type="text" class="form-control" id="input-movie">
+          </div>
+          <div class="form-group">
+            <label for="input-year">Year</label>
+            <input min="1930" max="2017" type="number" class="form-control" id="input-year">
+          </div>
+          <div class="form-group">
+            <label for="input-score">Score</label>
+            <input type="number" class="form-control" id="input-score">
+          </div>
+          <button type="submit" name="button">Add Movie</button>
+        </form>
+      </div>
+      <div class="order">
+        <h3>Sort your movie score into the table by pressing the button below!</h3>
+        <button id="sort" type="button" name="button">Sort</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Movie Title</th>
+            <th>Year Released</th>
+            <th>Tomato Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Frozen</strong></td>
+            <td>2013</td>
+            <td>88</td>
+          </tr>
+          <tr>
+            <td><strong>Toy Story 3</strong></td>
+            <td>2010</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td><strong>Minions</strong></td>
+            <td>2015</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td><strong>Predator</strong></td>
+            <td>1987</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td><strong>Wild Tales</strong></td>
+            <td>2014</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td><strong>Taken</strong></td>
+            <td>2012</td>
+            <td>32</td>
+          </tr>
+          <tr class="user-movie">
+            <td class="movie"></td>
+            <td class="year"></td>
+            <td class="score"></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </body>
+</html>

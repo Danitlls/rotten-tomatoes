@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face{
+	font-family: Lato-Black;
+	src: url(../css/Lato-Black.ttf);
+}
+
+@font-face{
+	font-family: LatoHair;
+	src: url(../css/Lato-Hairline.ttf);
+}
+*{
+  margin:0;
+}
+body{
+  font-family: LatoHair;
+  padding: 0px;
+}
+th{
+  font-family:  Lato-Black;
+  color: white;
+}
+table{
+  border: 1px solid blue;
+  border-collapse: collapse;
+  margin: 4px;
+}
+tr{
+  border-collapse: collapse;
+  background-color: white;
+}
+
+td, th{
+  padding: 4px;
+  text-align: center;
+}
+
+tr:nth-of-type(2n+2) {
+  background: lightblue;
+}
+
+th{
+  background-color: blue;
+}
